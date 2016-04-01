@@ -42,7 +42,7 @@ public class MyService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         Toast.makeText(this,"MyService started ...",Toast.LENGTH_LONG).show();
-Thread thread = new Thread(new MyThread(startId));
+        Thread thread = new Thread(new MyThread(startId));
         thread.start();
 
         return START_STICKY; //super.onStartCommand(intent, flags, startId);

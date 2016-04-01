@@ -13,12 +13,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void startService(View V){
-        Intent intent = new Intent(this,MyService.class);
+        Intent intent = new Intent(this,MyserviceIntent.class);
         startService(intent);
 
     }
     public void stopService(View V){
-        Intent intent = new Intent(this,MyService.class);
+        Intent intent = new Intent(this,MyserviceIntent.class);
         stopService(intent);
     }
 }

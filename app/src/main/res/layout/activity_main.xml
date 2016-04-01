@@ -39,7 +39,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:hint="type here"
+        android:hint="type here MyserviceIntent"
         android:id="@+id/editText"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
